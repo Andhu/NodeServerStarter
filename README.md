@@ -45,7 +45,7 @@ npm run dev
 
 ## API Reference
 
-post an email and password in a json format. to the signup route. 
+post an email and password in json format. to the signup route. 
 
 sign in using those credentials..
 

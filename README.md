@@ -22,10 +22,13 @@ for example
 **In Teminal**
 
 git clone git@github.com:Andhu/NodeServerStarter.git server
+
 cd server
+
 npm install
 
 **After that you will need to create a config.js file in the root directory**
+
 insert the following content in it
 
 module.exports = {
@@ -33,6 +36,7 @@ module.exports = {
 };
 
 **Back in the terminal**
+
 npm run dev
 
 **Voila**

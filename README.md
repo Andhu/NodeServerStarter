@@ -16,6 +16,8 @@ A short description of the motivation behind the creation and maintenance of the
 
 ## Installation
 
+**Have an instance of mongodb running**
+
 git clone git@github.com:Andhu/NodeServerStarter.git {what you wanna name the project}
 for example
 
@@ -46,9 +48,15 @@ npm run dev
 
 ## API Reference
 
+post an email and password in a json format. to the signup route. 
+
+sign in using those credentials..
+
+enter the root route with the provided token in the requests 'authorization' header.
+
 routes:
 
-localhost:3090/
+localhost:3090/  // Requires for you to be authenticated.
 
 localhost:3090/signup
 

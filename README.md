@@ -16,7 +16,29 @@ A short description of the motivation behind the creation and maintenance of the
 
 ## Installation
 
-Provide code examples and explanations of how to get the project.
+git clone git@github.com:Andhu/NodeServerStarter.git {what you wanna name the project}
+for example
+
+**In Teminal**
+
+git clone git@github.com:Andhu/NodeServerStarter.git server
+cd server
+npm install
+
+**After that you will need to create a config.js file in the root directory**
+insert the following content in it
+
+module.exports = {
+  secret: 'yourSecretKey'
+};
+
+**Back in the terminal**
+npm run dev
+
+**Voila**
+
+**Usage guide coming soon**
+
 
 ## API Reference
 

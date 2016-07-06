@@ -46,7 +46,15 @@ npm run dev
 
 ## API Reference
 
-Depending on the size of the project, if it is small and simple enough the reference docs can be added to the README. For medium size to larger projects it is important to at least provide a link to where the API reference docs live.
+routes:
+
+localhost:3090/
+
+localhost:3090/signup
+
+localhost:3090/signin
+
+**i really should have called it register & log in /fail** 
 
 ## Tests
 

@@ -11,6 +11,6 @@ module.exports = function(app) {
     res.send({ hi: 'there'});
   });
 
-  app.post('/signin', requireSignin,  Authentication.signin);
-  app.post('/signup', Authentication.signup);
+  app.post('/login', requireSignin,  Authentication.login);
+  app.post('/register', Authentication.register);
 };

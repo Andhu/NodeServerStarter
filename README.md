@@ -43,9 +43,6 @@ npm run dev
 
 **Voila**
 
-**Usage guide coming soon**
-
-
 ## API Reference
 
 post an email and password in a json format. to the signup route. 

@@ -55,11 +55,11 @@ routes:
 
 localhost:3090/  // Requires for you to be authenticated.
 
-localhost:3090/signup
+localhost:3090/register
 
-localhost:3090/signin
+localhost:3090/login
 
-**i really should have called it register & log in /fail** 
+
 
 ## Tests
 
